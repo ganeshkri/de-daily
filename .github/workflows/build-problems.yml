@@ -1,0 +1,34 @@
+name: Build problems
+
+# Runs whenever you edit or add problems in the content/ folder (even from the GitHub website)
+on:
+  push:
+    paths:
+      - "content/**"
+      - "scripts/build_problems.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown pygments
+      - run: python scripts/build_problems.py
+      - name: Commit if changed
+        run: |
+          git config user.name "de-daily bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/problems.json
+          git diff --cached --quiet || (git commit -m "Rebuild problems" && git push)
