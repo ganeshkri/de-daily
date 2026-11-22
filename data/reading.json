@@ -1,1 +1,729 @@
-{"updated": null, "topics": [], "sources": [], "items": []}
+{
+ "updated": "2026-11-22T16:31:50+00:00",
+ "topics": [
+  "Snowflake",
+  "dbt",
+  "Airflow",
+  "SQL",
+  "Python",
+  "Architecture",
+  "AI"
+ ],
+ "sources": [
+  {
+   "name": "SeattleDataGuy",
+   "home": "https://seattledataguy.substack.com",
+   "ok": false,
+   "feed": null
+  },
+  {
+   "name": "Data Engineering Weekly",
+   "home": "https://www.dataengineeringweekly.com",
+   "ok": true,
+   "feed": "https://www.dataengineeringweekly.com/feed"
+  },
+  {
+   "name": "DataExpert.io (Zach Wilson)",
+   "home": "https://blog.dataexpert.io",
+   "ok": true,
+   "feed": "https://blog.dataexpert.io/feed"
+  },
+  {
+   "name": "Data Engineer Things",
+   "home": "https://dataengineerthings.substack.com",
+   "ok": true,
+   "feed": "https://medium.com/feed/data-engineer-things"
+  },
+  {
+   "name": "Snowflake Builders Blog",
+   "home": "https://medium.com/snowflake",
+   "ok": true,
+   "feed": "https://medium.com/feed/snowflake"
+  },
+  {
+   "name": "dbt Developer Blog",
+   "home": "https://docs.getdbt.com/blog",
+   "ok": true,
+   "feed": "https://docs.getdbt.com/blog/rss.xml"
+  },
+  {
+   "name": "Apache Airflow Blog",
+   "home": "https://airflow.apache.org/blog/",
+   "ok": true,
+   "feed": "https://airflow.apache.org/blog/index.xml"
+  },
+  {
+   "name": "Astronomer Blog",
+   "home": "https://www.astronomer.io/blog",
+   "ok": true,
+   "feed": "https://www.astronomer.io/blog/rss.xml"
+  },
+  {
+   "name": "Start Data Engineering",
+   "home": "https://www.startdataengineering.com",
+   "ok": false,
+   "feed": null
+  },
+  {
+   "name": "Joe Reis",
+   "home": "https://joereis.substack.com",
+   "ok": false,
+   "feed": null
+  }
+ ],
+ "items": [
+  {
+   "title": "The Cape Fits: What Being a Snowflake Data Superhero Offers, and Teaches",
+   "url": "https://medium.com/snowflake/the-cape-fits-what-being-a-snowflake-data-superhero-offers-and-teaches-8f719a1e302c?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-20T18:01:05+00:00",
+   "snippet": "It started with a message Some time ago, a professional I had never met wrote to me. He said that reading my articles and LinkedIn posts had made complex topics feel simple and helped him find the confidence to switch careers. That message taught me something…",
+   "topics": [
+    "Snowflake"
+   ]
+  },
+  {
+   "title": "Build a Real-Time Kinesis-to-Snowflake Iceberg Pipeline with Snowpipe Streaming High-Performance…",
+   "url": "https://medium.com/snowflake/build-a-real-time-kinesis-to-snowflake-iceberg-pipeline-with-snowpipe-streaming-high-performance-dd44dc9b7ce5?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-20T15:01:01+00:00",
+   "snippet": "Build a Real-Time Kinesis-to-Snowflake Iceberg Pipeline with Snowpipe Streaming High-Performance SDK Key Contributor: Nithyashree Alwarsamy, Senior Partner Solutions Architect, AWS Snowflake’s new Snowpipe Streaming High-Performance Architecture pairs with a…",
+   "topics": [
+    "Snowflake",
+    "Architecture"
+   ]
+  },
+  {
+   "title": "Do You Still Need Airflow for Snowflake Pipelines? An Honest Answer From Someone Who’s Run Both",
+   "url": "https://medium.com/snowflake/do-you-still-need-airflow-for-snowflake-pipelines-an-honest-answer-from-someone-whos-run-both-0e8d4a5a9036?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-20T01:56:59+00:00",
+   "snippet": "Snowflake task graphs just grew up. That doesn’t mean your DAGs are obsolete. Apache Airflow and Snowflake Graph Every time Snowflake ships a new orchestration feature, I see the same post on my feed: “Airflow is dead.” I don’t buy it. But I also don’t buy…",
+   "topics": [
+    "Snowflake",
+    "Airflow",
+    "Architecture"
+   ]
+  },
+  {
+   "title": "Snowflake Is Moving the Database Boundary: Why Postgres, OpenFlow, and Agents Matter More Together",
+   "url": "https://medium.com/snowflake/snowflake-is-moving-the-database-boundary-why-postgres-openflow-and-agents-matter-more-together-a2331da1a745?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-19T15:01:04+00:00",
+   "snippet": "These views are my own, not those of my employer. Continue reading on Snowflake Builders Blog: Data Engineers, App Developers, AI, & Data Science »",
+   "topics": [
+    "Snowflake",
+    "AI"
+   ]
+  },
+  {
+   "title": "Thoughts on Verification Engineering in the Agentic SDLC",
+   "url": "https://www.dataengineeringweekly.com/p/thoughts-on-verification-engineering",
+   "source": "Data Engineering Weekly",
+   "date": "2026-11-18T21:59:55+00:00",
+   "snippet": "When AI accelerates code manufacturing, the software supply chain bottleneck shifts from writing code to building the feedback loop that proves it works.",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Interesting Pattern for Medium Scale Data Sharing for Analytical Workloads",
+   "url": "https://blog.dataengineerthings.org/interesting-pattern-for-medium-scale-data-sharing-for-analytical-workloads-cea86b73e236?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-18T18:26:33+00:00",
+   "snippet": "For the past year, I have been working as a Landing Zone Engineer, primarily responsible for scoping, designing, and maintaining landing zones for our data platform, along with building Data & AI assets. Different source systems require different approaches…",
+   "topics": [
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "One Silver Row Changed. Which Gold Totals Must Change?",
+   "url": "https://blog.dataengineerthings.org/one-silver-row-changed-which-gold-totals-must-change-3430ba3db6f3?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-18T18:26:25+00:00",
+   "snippet": "Why the old group is the one we forget, and four ways to repair Gold totals, each checked against a full rebuild. Continue reading on Data Engineer Things »",
+   "topics": []
+  },
+  {
+   "title": "AI Is Only as Powerful as the Data Behind It: Making Trading Data AI-Ready",
+   "url": "https://medium.com/snowflake/ai-is-only-as-powerful-as-the-data-behind-it-making-trading-data-ai-ready-9e17ab128829?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-18T18:01:05+00:00",
+   "snippet": "By Andrew Ralich, CEO, oneZero Financial Systems There is a lot of discussion today about what artificial intelligence will mean for financial markets. In an industry where, in the modern era, written communications are mandated to conclude “past performance…",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "From Prompts to Management Reports: Snowflake HTML Reports with CoCo",
+   "url": "https://medium.com/snowflake/from-prompts-to-management-reports-snowflake-html-reports-with-coco-2febecfc5e8c?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-18T15:01:04+00:00",
+   "snippet": "Exploring Snowflake’s new HTML Reports capability through a practical cost consumption report — and how AI-assisted reporting can support FinOps , cost visibility, and better platform decisions. AI-generated image created using ChatGPT by OpenAI. TL;DR…",
+   "topics": [
+    "Snowflake",
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "Building an Agent Factory for Data Migrations: a Small Test with Snowflake",
+   "url": "https://medium.com/snowflake/building-an-agent-factory-for-data-migrations-a-small-test-with-snowflake-9d4622c8f2c7?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-17T18:01:03+00:00",
+   "snippet": "Building an agent factory for data migrations: a small test with Snowflake How I moved a PostgreSQL database’s views and functions to Snowflake with parallel AI agents, scripted checks and an independent AI reviewer, and what broke along the way. The short…",
+   "topics": [
+    "Snowflake",
+    "SQL",
+    "AI"
+   ]
+  },
+  {
+   "title": "Silver Already Keeps History. Why Is Gold Building It Again?",
+   "url": "https://blog.dataengineerthings.org/silver-already-keeps-history-why-is-gold-building-it-again-449a8c21a49d?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-17T16:22:39+00:00",
+   "snippet": "When Gold should carry Silver’s history, when it needs its own, and how a refresh can write the same past twice. Continue reading on Data Engineer Things »",
+   "topics": []
+  },
+  {
+   "title": "Streaming to Iceberg: Kafka Connect vs Flink",
+   "url": "https://blog.dataengineerthings.org/streaming-to-iceberg-kafka-connect-vs-flink-218fd71132ee?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-17T16:22:22+00:00",
+   "snippet": "Photo by Harry Tran on Unsplash All Data engineers have to do data ingestion, which is a process of collecting, importing, and moving raw data from diverse sources into a central storage or processing platform. Now, i’m talking about moving data from…",
+   "topics": [
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "AI Agents Made Building Easy. Judgement Is the New Portfolio",
+   "url": "https://blog.dataengineerthings.org/when-ai-agents-do-the-coding-side-projects-must-prove-judgement-976e2fc1c8f2?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-17T16:22:14+00:00",
+   "snippet": "What Anthropic’s October workforce data and real shipping pressure tell early-career developers told to “build a startup.” Continue reading on Data Engineer Things »",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "AI Research Environment with Claude Code and Snowflake",
+   "url": "https://medium.com/snowflake/ai-research-environment-with-claude-code-and-snowflake-74f8a8a99fcb?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-17T15:01:06+00:00",
+   "snippet": "This article shows the environment I use every day for research data analysis and paper writing. The big picture Only code and manuscripts live on my laptop. Snowflake holds the data itself and records which version of the data I used. Claude Code reaches the…",
+   "topics": [
+    "Snowflake",
+    "AI"
+   ]
+  },
+  {
+   "title": "New for Otto: Custom MCP support and the ability to learn from existing Dag notes",
+   "url": "https://www.astronomer.io/blog/otto-graduates-from-labs-to-preview/",
+   "source": "Astronomer Blog",
+   "date": "2026-11-17T05:00:00+00:00",
+   "snippet": "Otto is now in Preview with a 95% uptime SLA, support team coverage, and custom MCP support for faster cross-platform troubleshooting.",
+   "topics": [
+    "Airflow",
+    "AI"
+   ]
+  },
+  {
+   "title": "From Streamlit to Snowflake App Runtime: A Demo Migration",
+   "url": "https://medium.com/snowflake/from-streamlit-to-snowflake-app-runtime-a-demo-migration-19e6e81d9873?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-17T01:03:18+00:00",
+   "snippet": "Moving a data app should not change what its numbers mean. I moved the Apache Ossie demo from Streamlit in Snowflake to Snowflake App Runtime to try a different interface around the same metric definitions. This walkthrough covers the Next.js rewrite,…",
+   "topics": [
+    "Snowflake"
+   ]
+  },
+  {
+   "title": "I benchmarked Snowflake Postgres mirroring for two days. Here are the numbers.",
+   "url": "https://medium.com/snowflake/i-benchmarked-snowflake-postgres-mirroring-for-two-days-here-are-the-numbers-b50eba22b8de?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-17T01:00:34+00:00",
+   "snippet": "Latency distributions, cost per refresh interval, impact on the source database, bulk loads and operations. Measured on the smallest instance that supports mirroring. Snowflake Postgres, managed PostgreSQL running inside a Snowflake account, has been…",
+   "topics": [
+    "Snowflake",
+    "SQL",
+    "Architecture"
+   ]
+  },
+  {
+   "title": "The Five SQL Questions I Ask Every Data Engineering Candidate",
+   "url": "https://blog.dataengineerthings.org/the-five-sql-questions-i-ask-every-data-engineering-candidate-b5b2a6ff4995?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-16T16:56:47+00:00",
+   "snippet": "What a weak, adequate and strong answer sounds like for each. Continue reading on Data Engineer Things »",
+   "topics": [
+    "SQL"
+   ]
+  },
+  {
+   "title": "Why Multi-Turn Text-to-SQL Agents Bleed Snowflake Credits & LLM Tokens (And How Prefix Caching the…",
+   "url": "https://blog.dataengineerthings.org/why-multi-turn-text-to-sql-agents-bleed-snowflake-credits-llm-tokens-and-how-prefix-caching-the-3ca4d4f4521e?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-16T16:56:03+00:00",
+   "snippet": "Why Multi-Turn Text-to-SQL Agents Bleed Snowflake Credits & LLM Tokens (And How Prefix Caching the Information Schema Fixes It) Prefix Caching the Information Schema Snowflake Text-to-SQL is widely touted as the quintessential generative AI capability for…",
+   "topics": [
+    "Snowflake",
+    "SQL",
+    "AI"
+   ]
+  },
+  {
+   "title": "Who owns the data? Five domains, one owner each, and checks that keep them apart",
+   "url": "https://blog.dataengineerthings.org/who-owns-the-data-five-domains-one-owner-each-and-checks-that-keep-them-apart-233b9c2f06b3?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-16T16:54:29+00:00",
+   "snippet": "Governance as code, part 2. Data ownership written as code, from shared reference data to a domain that breaks without taking the others… Continue reading on Data Engineer Things »",
+   "topics": [
+    "Architecture"
+   ]
+  },
+  {
+   "title": "How to Split a Feature Across AI Agents Without Losing the Afternoon",
+   "url": "https://blog.dataengineerthings.org/how-to-split-a-feature-across-ai-agents-without-losing-the-afternoon-7eab6ee051cb?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-16T16:54:00+00:00",
+   "snippet": "Settle the interface first, isolate each worker's checkout, and keep one owner for integration. Continue reading on Data Engineer Things »",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Every Check My AI Coding Agent Wrote Passed. One Missed the Failure.",
+   "url": "https://blog.dataengineerthings.org/every-check-my-ai-coding-agent-wrote-passed-one-of-them-couldnt-fail-3a8bb2259d9b?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-16T16:53:43+00:00",
+   "snippet": "What a summer of side projects with a coding agent taught me about green checkmarks, optimistic status reports, and the parts I still do… Continue reading on Data Engineer Things »",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #296",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-296",
+   "source": "Data Engineering Weekly",
+   "date": "2026-11-16T03:32:40+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "How Open Is Open? Iceberg, Catalogs, and User Choice",
+   "url": "https://www.dataengineeringweekly.com/p/how-open-is-open-iceberg-catalogs",
+   "source": "Data Engineering Weekly",
+   "date": "2026-11-11T20:50:33+00:00",
+   "snippet": "The next test of openness: giving users the freedom to choose engines, control their catalogs, and change providers.",
+   "topics": [
+    "Architecture"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #295",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-295",
+   "source": "Data Engineering Weekly",
+   "date": "2026-11-09T03:19:22+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Introducing Apache Airflow® 3.4",
+   "url": "https://www.astronomer.io/blog/introducing-apache-airflow-3-4/",
+   "source": "Astronomer Blog",
+   "date": "2026-11-09T00:00:00+00:00",
+   "snippet": "More support for AI orchestration with task loops, Common AI provider updates, and more.",
+   "topics": [
+    "Airflow",
+    "AI"
+   ]
+  },
+  {
+   "title": "Apache Airflow 3.4.0: Task Loops, Dags in Any Language, and AI Agents",
+   "url": "https://airflow.apache.org/blog/airflow-3.4.0/",
+   "source": "Apache Airflow Blog",
+   "date": "2026-11-06T00:00:00+00:00",
+   "snippet": "We’re proud to announce the release of Apache Airflow 3.4.0 ! Where 3.3 gave your tasks memory and task bodies in multiple languages, 3.4 is about shape and reach . It brings Task Loops , a native loop primitive for workflows that repeat until they are done;…",
+   "topics": [
+    "Airflow",
+    "AI"
+   ]
+  },
+  {
+   "title": "Using AI as a judge with Apache Airflow",
+   "url": "https://www.astronomer.io/blog/using-ai-as-a-judge-with-apache-airflow/",
+   "source": "Astronomer Blog",
+   "date": "2026-11-03T00:00:00+00:00",
+   "snippet": "You’ll learn: How to use AI as a judge for data answers, how to build a rubric for grading, and how to implement the pattern in Apache Airflow with the Common AI provider.",
+   "topics": [
+    "Airflow",
+    "AI"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #294",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-294",
+   "source": "Data Engineering Weekly",
+   "date": "2026-11-02T05:33:47+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Have dbt skills been bitter lesson’d?",
+   "url": "https://docs.getdbt.com/blog/do-coding-agents-still-need-dbt-skills",
+   "source": "dbt Developer Blog",
+   "date": "2026-10-30T00:00:00+00:00",
+   "snippet": "Models have improved a lot since we shipped dbt agent skills, so I ran Claude Opus, Sonnet, and Haiku 5.5, and then Sonnet 4.5, through a Formula 1 dbt project with and without them. The 5.5 models already knew dbt, run-to-run noise was bigger than any skills…",
+   "topics": [
+    "dbt",
+    "AI"
+   ]
+  },
+  {
+   "title": "The State of the 2026 Data Engineering Job Market",
+   "url": "https://blog.dataexpert.io/p/the-state-of-the-2026-data-engineering",
+   "source": "DataExpert.io (Zach Wilson)",
+   "date": "2026-10-29T20:02:21+00:00",
+   "snippet": "And how to get hired with an AI Data Engineering project on Databricks",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Do We Still Need Data Models?",
+   "url": "https://www.dataengineeringweekly.com/p/do-we-still-need-data-models",
+   "source": "Data Engineering Weekly",
+   "date": "2026-10-28T04:22:26+00:00",
+   "snippet": "As agents build data systems, models must help us understand the decisions behind them.",
+   "topics": [
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #293",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-293",
+   "source": "Data Engineering Weekly",
+   "date": "2026-10-26T02:12:10+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Apache Airflow CI Now Runs Trusted Builds on Self-Hosted Runners",
+   "url": "https://airflow.apache.org/blog/self-hosted-ci-runners/",
+   "source": "Apache Airflow Blog",
+   "date": "2026-10-26T00:00:00+00:00",
+   "snippet": "Apache Airflow’s CI shares GitHub-hosted runner capacity with the other Apache Software Foundation projects, and our large scheduled test runs compete for it. AIP-118: Self-hosted runners for Apache Airflow CI , accepted by lazy consensus, moves part of that…",
+   "topics": [
+    "Airflow"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #292",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-292",
+   "source": "Data Engineering Weekly",
+   "date": "2026-10-19T03:58:54+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Airflow AI Provider 1.0: Agents, Sandboxes, Human Approval and Smarter Retries",
+   "url": "https://airflow.apache.org/blog/common-ai-provider-1.0/",
+   "source": "Apache Airflow Blog",
+   "date": "2026-10-19T00:00:00+00:00",
+   "snippet": "Common AI ( apache-airflow-providers-common-ai ), the Apache Airflow provider for LLMs and AI agents, is now 1.0. An agent in your pipeline can query your warehouse through read-only tools, run the code it writes in a sandbox rather than in the process that…",
+   "topics": [
+    "Airflow",
+    "SQL",
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "Beyond the Dag hackathon: meet the winners",
+   "url": "https://www.astronomer.io/blog/beyond-the-dag-hackathon-meet-the-winners/",
+   "source": "Astronomer Blog",
+   "date": "2026-10-15T07:00:00+00:00",
+   "snippet": "Meet the winners of Beyond the Dag, the Apache Airflow hackathon: a plugin for API migrations, an AI red team, a robot rover, and self healing pipelines.",
+   "topics": [
+    "Airflow",
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "The Self-Organizing Data Stack",
+   "url": "https://www.dataengineeringweekly.com/p/the-self-organizing-data-stack",
+   "source": "Data Engineering Weekly",
+   "date": "2026-10-14T10:41:33+00:00",
+   "snippet": "When agents answer the questions, they can maintain the data model. Here is what that demands from the orchestration engine.",
+   "topics": [
+    "Airflow",
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "Inside the dbt Wizard harness: building an agent that thinks in DAGs",
+   "url": "https://docs.getdbt.com/blog/wizard-agent-harness",
+   "source": "dbt Developer Blog",
+   "date": "2026-10-14T00:00:00+00:00",
+   "snippet": "Wizard works like an analytics engineer: it thinks in DAGs, tests and fixes its own work, and keeps you in flow, so you review a working change instead of a first draft.",
+   "topics": [
+    "dbt",
+    "Airflow",
+    "AI"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #291",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-291",
+   "source": "Data Engineering Weekly",
+   "date": "2026-10-12T03:18:01+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "How to evaluate a decision model before you trust it",
+   "url": "https://www.astronomer.io/blog/how-to-evaluate-a-decision-model/",
+   "source": "Astronomer Blog",
+   "date": "2026-10-08T00:00:00+00:00",
+   "snippet": "Decision models answer with a choice and a confidence. We tested Jev and open models on Airflow retries: how to compare them fairly before you trust one.",
+   "topics": [
+    "Airflow"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #290",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-290",
+   "source": "Data Engineering Weekly",
+   "date": "2026-10-05T02:08:21+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Airflow, now available within ChatGPT",
+   "url": "https://www.astronomer.io/blog/airflow-now-available-within-chatgpt/",
+   "source": "Astronomer Blog",
+   "date": "2026-10-01T19:38:55+00:00",
+   "snippet": "Astronomer has just released the astronomer-data plugin for ChatGPT, which makes it possible to manage Airflow from within ChatGPT Work or Codex.",
+   "topics": [
+    "Airflow"
+   ]
+  },
+  {
+   "title": "What's new for developers using Astro: IDE, VS Code, and a first look at what's next",
+   "url": "https://www.astronomer.io/blog/whats-new-for-developers-using-astro-ide-vs-code-and-a-first-look-at-whats-next/",
+   "source": "Astronomer Blog",
+   "date": "2026-09-30T15:38:11+00:00",
+   "snippet": "A roundup of new releases aimed at making it easier to develop code in more places. The Astro IDE is now GA, plus we've added an extension for VS Code and an upcoming extension for Cursor that give you greatly expanded capabilities for Airflow development…",
+   "topics": [
+    "Airflow"
+   ]
+  },
+  {
+   "title": "Thinking Like a Data Architect",
+   "url": "https://www.dataengineeringweekly.com/p/thinking-like-a-data-architect",
+   "source": "Data Engineering Weekly",
+   "date": "2026-09-30T04:17:33+00:00",
+   "snippet": "A Field guide for data leaders",
+   "topics": []
+  },
+  {
+   "title": "Astronomer Data Engineering Benchmark",
+   "url": "https://www.astronomer.io/blog/astronomer-data-engineering-benchmark/",
+   "source": "Astronomer Blog",
+   "date": "2026-09-29T00:00:00+00:00",
+   "snippet": "Data Engineering Benchmark to measure how well coding agents do real data-engineering work with Airflow.",
+   "topics": [
+    "Airflow",
+    "AI"
+   ]
+  },
+  {
+   "title": "Speedrunning Senior to Staff Data Engineer in Big Tech",
+   "url": "https://blog.dataexpert.io/p/big-tech-speedrunning-senior-to-staff",
+   "source": "DataExpert.io (Zach Wilson)",
+   "date": "2026-09-28T21:29:35+00:00",
+   "snippet": "Staff engineer is the beginning of the “second” ladder in big tech.",
+   "topics": []
+  },
+  {
+   "title": "Data Engineering Weekly #289",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-289",
+   "source": "Data Engineering Weekly",
+   "date": "2026-09-28T02:50:27+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "What Jev will do to data engineering",
+   "url": "https://www.astronomer.io/blog/what-jev-will-do-to-data-engineering/",
+   "source": "Astronomer Blog",
+   "date": "2026-09-22T09:00:00+00:00",
+   "snippet": "Pipelines have never had a good way to hold a judgment. Small models that return typed answers with a confidence change that. Here is where I think it goes.",
+   "topics": [
+    "Architecture"
+   ]
+  },
+  {
+   "title": "Durable execution with Apache Airflow®",
+   "url": "https://www.astronomer.io/blog/durable-execution-with-apache-airflow/",
+   "source": "Astronomer Blog",
+   "date": "2026-09-21T07:00:00+00:00",
+   "snippet": "Apache Airflow has evolved beyond data orchestration. With Airflow 3.3, it is now a durable execution platform built for both classic data engineering and modern AI workloads. Learn how persistent state, resumable tasks, and durable agents let workflows…",
+   "topics": [
+    "Airflow",
+    "AI"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #288",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-288",
+   "source": "Data Engineering Weekly",
+   "date": "2026-09-21T01:09:33+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "What's New in Otto: Your Airflow Expert Now Available with Any Agent",
+   "url": "https://www.astronomer.io/blog/whats-new-in-otto-your-airflow-expert-now-available-with-any-agent/",
+   "source": "Astronomer Blog",
+   "date": "2026-09-17T04:00:00+00:00",
+   "snippet": "Astro's newest Otto releases focus on making Otto available in more places: across the Astro UI, via the Astro MCP server, and via Bring-Your-Own Model.",
+   "topics": [
+    "Airflow",
+    "AI"
+   ]
+  },
+  {
+   "title": "dbt_context_engineering: modeling the context your AI agents read",
+   "url": "https://docs.getdbt.com/blog/dbt-context-engineering",
+   "source": "dbt Developer Blog",
+   "date": "2026-09-16T00:00:00+00:00",
+   "snippet": "dbt-context-engineering is a new package, published by dbt, that helps you create AI ready data when you need it.",
+   "topics": [
+    "dbt",
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "What's the difference between dbt and dbt OSS?",
+   "url": "https://docs.getdbt.com/blog/comparing-dbt-and-dbt-oss",
+   "source": "dbt Developer Blog",
+   "date": "2026-09-16T00:00:00+00:00",
+   "snippet": "The free distribution of dbt v2 is our default recommendation over dbt OSS: it has more capabilities, and its license permits the same real-world use cases for free, without ever paying or talking to dbt Labs.",
+   "topics": [
+    "dbt"
+   ]
+  },
+  {
+   "title": "dbt v2.0 is GA",
+   "url": "https://docs.getdbt.com/blog/dbt-v2-is-ga",
+   "source": "dbt Developer Blog",
+   "date": "2026-09-16T00:00:00+00:00",
+   "snippet": "The dbt Fusion engine is entering General Availability with a new name: dbt. This complete rewrite lays the foundations for the next decade of progress.",
+   "topics": [
+    "dbt"
+   ]
+  },
+  {
+   "title": "Data Engineering Weekly #287",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-287",
+   "source": "Data Engineering Weekly",
+   "date": "2026-09-14T02:52:23+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Data Engineering Weekly #286",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-286",
+   "source": "Data Engineering Weekly",
+   "date": "2026-09-07T00:18:06+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Data Engineering Weekly #285",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-285",
+   "source": "Data Engineering Weekly",
+   "date": "2026-08-31T02:51:19+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "The Astro Runtime: Airflow re-engineered for speed and scale",
+   "url": "https://www.astronomer.io/blog/astro-airflow-re-engineered-for-speed-and-scale/",
+   "source": "Astronomer Blog",
+   "date": "2026-08-31T00:00:00+00:00",
+   "snippet": "Open-source Airflow finds ready work on a timer; Astro gets a hint. 100x lower p95 task-start latency at twice the load, on the same database and interfaces.",
+   "topics": [
+    "Airflow"
+   ]
+  },
+  {
+   "title": "How We Built Cross-Region Disaster Recovery for Astro on Azure",
+   "url": "https://www.astronomer.io/blog/how-we-built-cross-region-disaster-recovery-for-astro-on-azure/",
+   "source": "Astronomer Blog",
+   "date": "2026-08-27T13:48:54+00:00",
+   "snippet": "Disaster Recovery on Azure is now generally available on Astro",
+   "topics": []
+  },
+  {
+   "title": "The New Astro Runtime",
+   "url": "https://www.astronomer.io/blog/the-new-astro-runtime/",
+   "source": "Astronomer Blog",
+   "date": "2026-08-27T00:00:00+00:00",
+   "snippet": "We rebuilt Airflow's scheduler, executor, and infrastructure on Astro: 500,000 concurrent tasks, 228ms task starts, and the same DAGs you run today.",
+   "topics": [
+    "Airflow"
+   ]
+  },
+  {
+   "title": "Building an Operational Ontology: An E-Commerce Walkthrough",
+   "url": "https://www.dataengineeringweekly.com/p/building-an-operational-ontology",
+   "source": "Data Engineering Weekly",
+   "date": "2026-08-26T14:29:30+00:00",
+   "snippet": "The write side of the ontology conversation: named actions, business rules, and write-back to the systems of record — a pattern already running at enterprise scale.",
+   "topics": []
+  },
+  {
+   "title": "Data Engineering Weekly #284",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-284",
+   "source": "Data Engineering Weekly",
+   "date": "2026-08-24T02:04:48+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Data Engineering Weekly #283",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-283",
+   "source": "Data Engineering Weekly",
+   "date": "2026-08-17T02:59:40+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "The Complete Databricks Learning Roadmap for 2026",
+   "url": "https://blog.dataexpert.io/p/the-2026-mastering-databricks-roadmap",
+   "source": "DataExpert.io (Zach Wilson)",
+   "date": "2026-08-14T20:11:45+00:00",
+   "snippet": "What to learn, what to skip, and the right order to master Databricks.",
+   "topics": []
+  },
+  {
+   "title": "How We Built Cross-Region Disaster Recovery for Astro on Google Cloud",
+   "url": "https://www.astronomer.io/blog/how-we-built-cross-region-disaster-recovery-for-astro-on-google-cloud/",
+   "source": "Astronomer Blog",
+   "date": "2026-07-29T16:47:44+00:00",
+   "snippet": "How we built it Cross-region disaster recovery on GCP: the architecture, the decisions specific to Google Cloud, and what teams need to plan before starting.",
+   "topics": [
+    "Architecture"
+   ]
+  }
+ ]
+}
