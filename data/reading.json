@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:31:50+00:00",
+ "updated": "2026-11-23T08:14:49+00:00",
  "topics": [
   "Snowflake",
   "dbt",
@@ -72,6 +72,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Data Engineering Weekly #297",
+   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-297",
+   "source": "Data Engineering Weekly",
+   "date": "2026-11-23T03:27:26+00:00",
+   "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
   {
    "title": "The Cape Fits: What Being a Snowflake Data Superhero Offers, and Teaches",
    "url": "https://medium.com/snowflake/the-cape-fits-what-being-a-snowflake-data-superhero-offers-and-teaches-8f719a1e302c?source=rss----34b6daafc07---4",
@@ -696,14 +704,6 @@
    "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-284",
    "source": "Data Engineering Weekly",
    "date": "2026-08-24T02:04:48+00:00",
-   "snippet": "The Weekly Data Engineering Newsletter",
-   "topics": []
-  },
-  {
-   "title": "Data Engineering Weekly #283",
-   "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-283",
-   "source": "Data Engineering Weekly",
-   "date": "2026-08-17T02:59:40+00:00",
    "snippet": "The Weekly Data Engineering Newsletter",
    "topics": []
   },
