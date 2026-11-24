@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:14:49+00:00",
+ "updated": "2026-11-24T10:25:45+00:00",
  "topics": [
   "Snowflake",
   "dbt",
@@ -72,6 +72,49 @@
   }
  ],
  "items": [
+  {
+   "title": "Snowflake CoCo Automations: a Data-Health Email That Arrives Before Your Execs Open the Dashboard",
+   "url": "https://medium.com/snowflake/snowflake-coco-automations-a-data-health-email-that-arrives-before-your-execs-open-the-dashboard-778be870075e?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-23T22:11:01+00:00",
+   "snippet": "A scheduled, read-only agent that checks every layer behind your most-used report tiles and emails a status at 7am tl;dr A Snowflake CoCo automation is a prompt on a schedule. Snowflake runs it as a task, an agent works through the prompt with nobody…",
+   "topics": [
+    "Snowflake",
+    "AI"
+   ]
+  },
+  {
+   "title": "My Automation Saw the Broken Pipeline. It Didn’t See the Decision.",
+   "url": "https://medium.com/snowflake/my-automation-saw-the-broken-pipeline-it-didnt-see-the-decision-98dda7af4f6e?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-23T19:12:37+00:00",
+   "snippet": "AI is single-player by default. Incidents aren’t. Here’s the room I built so people and agents could work on an incident together, and the guardrails that keep agents from shipping alone. Multi-player, Multi-agent on Snowflake It’s 6:30 in the morning and the…",
+   "topics": [
+    "Snowflake",
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "Your Data Diff Is Lying: 6 Traps When Comparing a Table Before and After a Change",
+   "url": "https://blog.dataengineerthings.org/your-data-diff-is-lying-6-traps-when-comparing-a-table-before-and-after-a-change-f1f072b3bb36?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-23T16:14:23+00:00",
+   "snippet": "What I learned trying to break my own table-diff tool on Databricks, with plain SQL to avoid each trap Image by the author Before a change ships, you want to know what it will do to a table. How many rows will be added, removed or changed? The usual answer is…",
+   "topics": [
+    "SQL"
+   ]
+  },
+  {
+   "title": "How I Processed 1 Billion Events a Day for About $3",
+   "url": "https://blog.dataengineerthings.org/how-i-processed-1-billion-events-a-day-for-about-3-0909386d824f?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-23T16:14:00+00:00",
+   "snippet": "I did not believe the numbers, so I ran the whole test again. For more than 12 years I have worked with various data pipelines, and my cloud bills for processing event streams have run to hundreds of dollars, sometimes even thousands. This came out at about…",
+   "topics": [
+    "Architecture"
+   ]
+  },
   {
    "title": "Data Engineering Weekly #297",
    "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-297",
@@ -239,28 +282,6 @@
    ]
   },
   {
-   "title": "From Streamlit to Snowflake App Runtime: A Demo Migration",
-   "url": "https://medium.com/snowflake/from-streamlit-to-snowflake-app-runtime-a-demo-migration-19e6e81d9873?source=rss----34b6daafc07---4",
-   "source": "Snowflake Builders Blog",
-   "date": "2026-11-17T01:03:18+00:00",
-   "snippet": "Moving a data app should not change what its numbers mean. I moved the Apache Ossie demo from Streamlit in Snowflake to Snowflake App Runtime to try a different interface around the same metric definitions. This walkthrough covers the Next.js rewrite,…",
-   "topics": [
-    "Snowflake"
-   ]
-  },
-  {
-   "title": "I benchmarked Snowflake Postgres mirroring for two days. Here are the numbers.",
-   "url": "https://medium.com/snowflake/i-benchmarked-snowflake-postgres-mirroring-for-two-days-here-are-the-numbers-b50eba22b8de?source=rss----34b6daafc07---4",
-   "source": "Snowflake Builders Blog",
-   "date": "2026-11-17T01:00:34+00:00",
-   "snippet": "Latency distributions, cost per refresh interval, impact on the source database, bulk loads and operations. Measured on the smallest instance that supports mirroring. Snowflake Postgres, managed PostgreSQL running inside a Snowflake account, has been…",
-   "topics": [
-    "Snowflake",
-    "SQL",
-    "Architecture"
-   ]
-  },
-  {
    "title": "The Five SQL Questions I Ask Every Data Engineering Candidate",
    "url": "https://blog.dataengineerthings.org/the-five-sql-questions-i-ask-every-data-engineering-candidate-b5b2a6ff4995?source=rss----f2ba5b8f6eb3---4",
    "source": "Data Engineer Things",
@@ -290,26 +311,6 @@
    "snippet": "Governance as code, part 2. Data ownership written as code, from shared reference data to a domain that breaks without taking the others… Continue reading on Data Engineer Things »",
    "topics": [
     "Architecture"
-   ]
-  },
-  {
-   "title": "How to Split a Feature Across AI Agents Without Losing the Afternoon",
-   "url": "https://blog.dataengineerthings.org/how-to-split-a-feature-across-ai-agents-without-losing-the-afternoon-7eab6ee051cb?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-16T16:54:00+00:00",
-   "snippet": "Settle the interface first, isolate each worker's checkout, and keep one owner for integration. Continue reading on Data Engineer Things »",
-   "topics": [
-    "AI"
-   ]
-  },
-  {
-   "title": "Every Check My AI Coding Agent Wrote Passed. One Missed the Failure.",
-   "url": "https://blog.dataengineerthings.org/every-check-my-ai-coding-agent-wrote-passed-one-of-them-couldnt-fail-3a8bb2259d9b?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-16T16:53:43+00:00",
-   "snippet": "What a summer of side projects with a coding agent taught me about green checkmarks, optimistic status reports, and the parts I still do… Continue reading on Data Engineer Things »",
-   "topics": [
-    "AI"
    ]
   },
   {
