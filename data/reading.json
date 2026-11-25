@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:25:45+00:00",
+ "updated": "2026-11-25T09:10:28+00:00",
  "topics": [
   "Snowflake",
   "dbt",
@@ -73,6 +73,39 @@
  ],
  "items": [
   {
+   "title": "Compaction Was On. It Never Ran.",
+   "url": "https://blog.dataengineerthings.org/compaction-was-on-it-never-ran-427efdc02794?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-24T19:03:21+00:00",
+   "snippet": "Live data files per hourly partition in the battery telemetry table, read from the Iceberg manifest on November 24, 2026. Image by the author. I benchmarked my own tool against Athena and, on one table, it was up to 25 times slower. It took me a month to find…",
+   "topics": [
+    "Architecture"
+   ]
+  },
+  {
+   "title": "We Underestimated Microsoft Fabric CU Consumption. Here’s Where It Went",
+   "url": "https://blog.dataengineerthings.org/we-underestimated-microsoft-fabric-cu-consumption-heres-where-it-went-9b75078c467e?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-24T18:45:20+00:00",
+   "snippet": "A lakehouse that looked fine on paper, where the capacity units actually went and the five questions I ask now before I size anything. Continue reading on Data Engineer Things »",
+   "topics": [
+    "Architecture"
+   ]
+  },
+  {
+   "title": "Evaluating AI Systems in Production on Snowflake",
+   "url": "https://medium.com/snowflake/evaluating-ai-systems-in-production-on-snowflake-6fdac4f33988?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-24T15:01:05+00:00",
+   "snippet": "AI pipelines fail silently in production: prompt regression, bad inputs, hallucinated outputs, and drift. This article builds a four-stage evaluation framework using dbt and Snowflake Cortex to catch each one. Take a common example: an LLM classifies incoming…",
+   "topics": [
+    "Snowflake",
+    "dbt",
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
    "title": "Snowflake CoCo Automations: a Data-Health Email That Arrives Before Your Execs Open the Dashboard",
    "url": "https://medium.com/snowflake/snowflake-coco-automations-a-data-health-email-that-arrives-before-your-execs-open-the-dashboard-778be870075e?source=rss----34b6daafc07---4",
    "source": "Snowflake Builders Blog",
@@ -93,6 +126,16 @@
     "Snowflake",
     "Architecture",
     "AI"
+   ]
+  },
+  {
+   "title": "What the f*** is a semantic layer?",
+   "url": "https://blog.dataengineerthings.org/what-the-f-is-a-semantic-layer-01aba6f7e964?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-23T16:16:28+00:00",
+   "snippet": "Is it just an add-on to your data platform? Continue reading on Data Engineer Things »",
+   "topics": [
+    "dbt"
    ]
   },
   {
@@ -260,17 +303,6 @@
    ]
   },
   {
-   "title": "AI Research Environment with Claude Code and Snowflake",
-   "url": "https://medium.com/snowflake/ai-research-environment-with-claude-code-and-snowflake-74f8a8a99fcb?source=rss----34b6daafc07---4",
-   "source": "Snowflake Builders Blog",
-   "date": "2026-11-17T15:01:06+00:00",
-   "snippet": "This article shows the environment I use every day for research data analysis and paper writing. The big picture Only code and manuscripts live on my laptop. Snowflake holds the data itself and records which version of the data I used. Claude Code reaches the…",
-   "topics": [
-    "Snowflake",
-    "AI"
-   ]
-  },
-  {
    "title": "New for Otto: Custom MCP support and the ability to learn from existing Dag notes",
    "url": "https://www.astronomer.io/blog/otto-graduates-from-labs-to-preview/",
    "source": "Astronomer Blog",
@@ -279,38 +311,6 @@
    "topics": [
     "Airflow",
     "AI"
-   ]
-  },
-  {
-   "title": "The Five SQL Questions I Ask Every Data Engineering Candidate",
-   "url": "https://blog.dataengineerthings.org/the-five-sql-questions-i-ask-every-data-engineering-candidate-b5b2a6ff4995?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-16T16:56:47+00:00",
-   "snippet": "What a weak, adequate and strong answer sounds like for each. Continue reading on Data Engineer Things »",
-   "topics": [
-    "SQL"
-   ]
-  },
-  {
-   "title": "Why Multi-Turn Text-to-SQL Agents Bleed Snowflake Credits & LLM Tokens (And How Prefix Caching the…",
-   "url": "https://blog.dataengineerthings.org/why-multi-turn-text-to-sql-agents-bleed-snowflake-credits-llm-tokens-and-how-prefix-caching-the-3ca4d4f4521e?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-16T16:56:03+00:00",
-   "snippet": "Why Multi-Turn Text-to-SQL Agents Bleed Snowflake Credits & LLM Tokens (And How Prefix Caching the Information Schema Fixes It) Prefix Caching the Information Schema Snowflake Text-to-SQL is widely touted as the quintessential generative AI capability for…",
-   "topics": [
-    "Snowflake",
-    "SQL",
-    "AI"
-   ]
-  },
-  {
-   "title": "Who owns the data? Five domains, one owner each, and checks that keep them apart",
-   "url": "https://blog.dataengineerthings.org/who-owns-the-data-five-domains-one-owner-each-and-checks-that-keep-them-apart-233b9c2f06b3?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-16T16:54:29+00:00",
-   "snippet": "Governance as code, part 2. Data ownership written as code, from shared reference data to a domain that breaks without taking the others… Continue reading on Data Engineer Things »",
-   "topics": [
-    "Architecture"
    ]
   },
   {
