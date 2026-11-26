@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:10:28+00:00",
+ "updated": "2026-11-26T08:53:59+00:00",
  "topics": [
   "Snowflake",
   "dbt",
@@ -72,6 +72,28 @@
   }
  ],
  "items": [
+  {
+   "title": "Lessons from Getting an SPCS Native App onto the Snowflake Marketplace",
+   "url": "https://medium.com/snowflake/lessons-from-getting-an-spcs-native-app-onto-the-snowflake-marketplace-6b1d1426d70c?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-25T20:32:13+00:00",
+   "snippet": "The challenges I hit building an SPCS Native App and getting it listed on the Snowflake Marketplace, and how I fixed each one Most Snowflake FinOps, observability & operations insights tools start by copying your metadata out of your account. We wanted to see…",
+   "topics": [
+    "Snowflake"
+   ]
+  },
+  {
+   "title": "From scanned homeowner tax records to a governed AI agent, entirely in SQL",
+   "url": "https://medium.com/snowflake/from-scanned-homeowner-tax-records-to-a-governed-ai-agent-entirely-in-sql-8aa4b8fee8f0?source=rss----34b6daafc07---4",
+   "source": "Snowflake Builders Blog",
+   "date": "2026-11-25T20:31:05+00:00",
+   "snippet": "100% field accuracy on digital documents, 94% on scans, and a Cortex Agent on top, without the data ever leaving Snowflake. Utility efficiency programs have a targeting problem that sounds simple. You want the homes that would gain the most from…",
+   "topics": [
+    "Snowflake",
+    "SQL",
+    "AI"
+   ]
+  },
   {
    "title": "Compaction Was On. It Never Ran.",
    "url": "https://blog.dataengineerthings.org/compaction-was-on-it-never-ran-427efdc02794?source=rss----f2ba5b8f6eb3---4",
@@ -246,30 +268,6 @@
    "date": "2026-11-18T18:01:05+00:00",
    "snippet": "By Andrew Ralich, CEO, oneZero Financial Systems There is a lot of discussion today about what artificial intelligence will mean for financial markets. In an industry where, in the modern era, written communications are mandated to conclude “past performance…",
    "topics": [
-    "AI"
-   ]
-  },
-  {
-   "title": "From Prompts to Management Reports: Snowflake HTML Reports with CoCo",
-   "url": "https://medium.com/snowflake/from-prompts-to-management-reports-snowflake-html-reports-with-coco-2febecfc5e8c?source=rss----34b6daafc07---4",
-   "source": "Snowflake Builders Blog",
-   "date": "2026-11-18T15:01:04+00:00",
-   "snippet": "Exploring Snowflake’s new HTML Reports capability through a practical cost consumption report — and how AI-assisted reporting can support FinOps , cost visibility, and better platform decisions. AI-generated image created using ChatGPT by OpenAI. TL;DR…",
-   "topics": [
-    "Snowflake",
-    "Architecture",
-    "AI"
-   ]
-  },
-  {
-   "title": "Building an Agent Factory for Data Migrations: a Small Test with Snowflake",
-   "url": "https://medium.com/snowflake/building-an-agent-factory-for-data-migrations-a-small-test-with-snowflake-9d4622c8f2c7?source=rss----34b6daafc07---4",
-   "source": "Snowflake Builders Blog",
-   "date": "2026-11-17T18:01:03+00:00",
-   "snippet": "Building an agent factory for data migrations: a small test with Snowflake How I moved a PostgreSQL database’s views and functions to Snowflake with parallel AI agents, scripted checks and an independent AI reviewer, and what broke along the way. The short…",
-   "topics": [
-    "Snowflake",
-    "SQL",
     "AI"
    ]
   },
