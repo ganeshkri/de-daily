@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T08:53:59+00:00",
+ "updated": "2026-11-27T09:05:45+00:00",
  "topics": [
   "Snowflake",
   "dbt",
@@ -13,8 +13,8 @@
   {
    "name": "SeattleDataGuy",
    "home": "https://seattledataguy.substack.com",
-   "ok": false,
-   "feed": null
+   "ok": true,
+   "feed": "https://seattledataguy.substack.com/feed"
   },
   {
    "name": "Data Engineering Weekly",
@@ -32,7 +32,7 @@
    "name": "Data Engineer Things",
    "home": "https://dataengineerthings.substack.com",
    "ok": true,
-   "feed": "https://medium.com/feed/data-engineer-things"
+   "feed": "https://dataengineerthings.substack.com/feed"
   },
   {
    "name": "Snowflake Builders Blog",
@@ -67,8 +67,8 @@
   {
    "name": "Joe Reis",
    "home": "https://joereis.substack.com",
-   "ok": false,
-   "feed": null
+   "ok": true,
+   "feed": "https://joereis.substack.com/feed"
   }
  ],
  "items": [
@@ -95,23 +95,21 @@
    ]
   },
   {
-   "title": "Compaction Was On. It Never Ran.",
-   "url": "https://blog.dataengineerthings.org/compaction-was-on-it-never-ran-427efdc02794?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-24T19:03:21+00:00",
-   "snippet": "Live data files per hourly partition in the battery telemetry table, read from the Iceberg manifest on November 24, 2026. Image by the author. I benchmarked my own tool against Athena and, on one table, it was up to 25 times slower. It took me a month to find…",
-   "topics": [
-    "Architecture"
-   ]
+   "title": "We Didn’t Need a Faster Data Warehouse",
+   "url": "https://seattledataguy.substack.com/p/we-didnt-need-a-faster-data-warehouse",
+   "source": "SeattleDataGuy",
+   "date": "2026-11-24T18:59:08+00:00",
+   "snippet": "Why the next evolution of data platforms needs to go beyond technical friction",
+   "topics": []
   },
   {
-   "title": "We Underestimated Microsoft Fabric CU Consumption. Here’s Where It Went",
-   "url": "https://blog.dataengineerthings.org/we-underestimated-microsoft-fabric-cu-consumption-heres-where-it-went-9b75078c467e?source=rss----f2ba5b8f6eb3---4",
+   "title": "Data Engineer Things Newsletter - Data Pulse Edition (November 2026)",
+   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-data-68d",
    "source": "Data Engineer Things",
-   "date": "2026-11-24T18:45:20+00:00",
-   "snippet": "A lakehouse that looked fine on paper, where the capacity units actually went and the five questions I ask now before I size anything. Continue reading on Data Engineer Things »",
+   "date": "2026-11-24T16:02:48+00:00",
+   "snippet": "Future of data roles, Dawn of the data intelligence engineer, Pinterest's loop engineering, Goal engineering for agents, Graph-structured entities for resolution at scale and more.",
    "topics": [
-    "Architecture"
+    "AI"
    ]
   },
   {
@@ -139,6 +137,14 @@
    ]
   },
   {
+   "title": "The 2027 State of Data Engineering Survey is LIVE!",
+   "url": "https://joereis.substack.com/p/the-2027-state-of-data-engineering",
+   "source": "Joe Reis",
+   "date": "2026-11-23T21:57:17+00:00",
+   "snippet": "Now accepting YOUR response until January 20, 2027",
+   "topics": []
+  },
+  {
    "title": "My Automation Saw the Broken Pipeline. It Didn’t See the Decision.",
    "url": "https://medium.com/snowflake/my-automation-saw-the-broken-pipeline-it-didnt-see-the-decision-98dda7af4f6e?source=rss----34b6daafc07---4",
    "source": "Snowflake Builders Blog",
@@ -148,36 +154,6 @@
     "Snowflake",
     "Architecture",
     "AI"
-   ]
-  },
-  {
-   "title": "What the f*** is a semantic layer?",
-   "url": "https://blog.dataengineerthings.org/what-the-f-is-a-semantic-layer-01aba6f7e964?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-23T16:16:28+00:00",
-   "snippet": "Is it just an add-on to your data platform? Continue reading on Data Engineer Things »",
-   "topics": [
-    "dbt"
-   ]
-  },
-  {
-   "title": "Your Data Diff Is Lying: 6 Traps When Comparing a Table Before and After a Change",
-   "url": "https://blog.dataengineerthings.org/your-data-diff-is-lying-6-traps-when-comparing-a-table-before-and-after-a-change-f1f072b3bb36?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-23T16:14:23+00:00",
-   "snippet": "What I learned trying to break my own table-diff tool on Databricks, with plain SQL to avoid each trap Image by the author Before a change ships, you want to know what it will do to a table. How many rows will be added, removed or changed? The usual answer is…",
-   "topics": [
-    "SQL"
-   ]
-  },
-  {
-   "title": "How I Processed 1 Billion Events a Day for About $3",
-   "url": "https://blog.dataengineerthings.org/how-i-processed-1-billion-events-a-day-for-about-3-0909386d824f?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-23T16:14:00+00:00",
-   "snippet": "I did not believe the numbers, so I ran the whole test again. For more than 12 years I have worked with various data pipelines, and my cloud bills for processing event streams have run to hundreds of dollars, sometimes even thousands. This came out at about…",
-   "topics": [
-    "Architecture"
    ]
   },
   {
@@ -243,59 +219,11 @@
    ]
   },
   {
-   "title": "Interesting Pattern for Medium Scale Data Sharing for Analytical Workloads",
-   "url": "https://blog.dataengineerthings.org/interesting-pattern-for-medium-scale-data-sharing-for-analytical-workloads-cea86b73e236?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-18T18:26:33+00:00",
-   "snippet": "For the past year, I have been working as a Landing Zone Engineer, primarily responsible for scoping, designing, and maintaining landing zones for our data platform, along with building Data & AI assets. Different source systems require different approaches…",
-   "topics": [
-    "Architecture",
-    "AI"
-   ]
-  },
-  {
-   "title": "One Silver Row Changed. Which Gold Totals Must Change?",
-   "url": "https://blog.dataengineerthings.org/one-silver-row-changed-which-gold-totals-must-change-3430ba3db6f3?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-18T18:26:25+00:00",
-   "snippet": "Why the old group is the one we forget, and four ways to repair Gold totals, each checked against a full rebuild. Continue reading on Data Engineer Things »",
-   "topics": []
-  },
-  {
    "title": "AI Is Only as Powerful as the Data Behind It: Making Trading Data AI-Ready",
    "url": "https://medium.com/snowflake/ai-is-only-as-powerful-as-the-data-behind-it-making-trading-data-ai-ready-9e17ab128829?source=rss----34b6daafc07---4",
    "source": "Snowflake Builders Blog",
    "date": "2026-11-18T18:01:05+00:00",
    "snippet": "By Andrew Ralich, CEO, oneZero Financial Systems There is a lot of discussion today about what artificial intelligence will mean for financial markets. In an industry where, in the modern era, written communications are mandated to conclude “past performance…",
-   "topics": [
-    "AI"
-   ]
-  },
-  {
-   "title": "Silver Already Keeps History. Why Is Gold Building It Again?",
-   "url": "https://blog.dataengineerthings.org/silver-already-keeps-history-why-is-gold-building-it-again-449a8c21a49d?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-17T16:22:39+00:00",
-   "snippet": "When Gold should carry Silver’s history, when it needs its own, and how a refresh can write the same past twice. Continue reading on Data Engineer Things »",
-   "topics": []
-  },
-  {
-   "title": "Streaming to Iceberg: Kafka Connect vs Flink",
-   "url": "https://blog.dataengineerthings.org/streaming-to-iceberg-kafka-connect-vs-flink-218fd71132ee?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-17T16:22:22+00:00",
-   "snippet": "Photo by Harry Tran on Unsplash All Data engineers have to do data ingestion, which is a process of collecting, importing, and moving raw data from diverse sources into a central storage or processing platform. Now, i’m talking about moving data from…",
-   "topics": [
-    "Architecture",
-    "AI"
-   ]
-  },
-  {
-   "title": "AI Agents Made Building Easy. Judgement Is the New Portfolio",
-   "url": "https://blog.dataengineerthings.org/when-ai-agents-do-the-coding-side-projects-must-prove-judgement-976e2fc1c8f2?source=rss----f2ba5b8f6eb3---4",
-   "source": "Data Engineer Things",
-   "date": "2026-11-17T16:22:14+00:00",
-   "snippet": "What Anthropic’s October workforce data and real shipping pressure tell early-career developers told to “build a startup.” Continue reading on Data Engineer Things »",
    "topics": [
     "AI"
    ]
@@ -320,6 +248,24 @@
    "topics": []
   },
   {
+   "title": "Do Data Roles Have a Future?",
+   "url": "https://joereis.substack.com/p/do-data-roles-have-a-future",
+   "source": "Joe Reis",
+   "date": "2026-11-15T09:01:36+00:00",
+   "snippet": "The Weekend Windup #52 - Cool reads, events, links, and more",
+   "topics": []
+  },
+  {
+   "title": "A checklist for getting the most out of dbt State",
+   "url": "https://docs.getdbt.com/blog/checklist-get-the-most-from-dbt-state",
+   "source": "dbt Developer Blog",
+   "date": "2026-11-15T00:00:00+00:00",
+   "snippet": "A step-by-step checklist for teams adopting dbt State on a large dbt project, from baselining performance to consolidating jobs.",
+   "topics": [
+    "dbt"
+   ]
+  },
+  {
    "title": "How Open Is Open? Iceberg, Catalogs, and User Choice",
    "url": "https://www.dataengineeringweekly.com/p/how-open-is-open-iceberg-catalogs",
    "source": "Data Engineering Weekly",
@@ -327,6 +273,26 @@
    "snippet": "The next test of openness: giving users the freedom to choose engines, control their catalogs, and change providers.",
    "topics": [
     "Architecture"
+   ]
+  },
+  {
+   "title": "Is BI Dead? Why Hex Hit Reset and Rewrote Everything for the AI Agent Era.",
+   "url": "https://joereis.substack.com/p/is-bi-dead-why-hex-hit-reset-and",
+   "source": "Joe Reis",
+   "date": "2026-11-10T17:20:45+00:00",
+   "snippet": "Fireside chat with Barry McCardel (CEO Hex)",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Data Engineer Things Newsletter - Community Spotlight Edition (November 2026)",
+   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-community-6a0",
+   "source": "Data Engineer Things",
+   "date": "2026-11-10T16:03:05+00:00",
+   "snippet": "On building community, open-source learning and data build tool (dbt) best practices",
+   "topics": [
+    "dbt"
    ]
   },
   {
@@ -360,6 +326,14 @@
    ]
   },
   {
+   "title": "What’s Going To Matter In 2027 For Data Engineers?",
+   "url": "https://seattledataguy.substack.com/p/whats-going-to-matter-in-2027-for",
+   "source": "SeattleDataGuy",
+   "date": "2026-11-04T22:08:08+00:00",
+   "snippet": "Hi, fellow future and current Data Leaders; Ben here 👋",
+   "topics": []
+  },
+  {
    "title": "Using AI as a judge with Apache Airflow",
    "url": "https://www.astronomer.io/blog/using-ai-as-a-judge-with-apache-airflow/",
    "source": "Astronomer Blog",
@@ -376,6 +350,14 @@
    "source": "Data Engineering Weekly",
    "date": "2026-11-02T05:33:47+00:00",
    "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "The Great Data Interregnum - Morbid Symptoms of an Industry Between Eras",
+   "url": "https://joereis.substack.com/p/the-great-data-interregnum-morbid",
+   "source": "Joe Reis",
+   "date": "2026-11-01T15:52:51+00:00",
+   "snippet": "The Weekend Windup #51 - Cool reads, events, links, and more",
    "topics": []
   },
   {
@@ -429,6 +411,40 @@
    ]
   },
   {
+   "title": "Scott’s Tots and the Broken Promise Economy",
+   "url": "https://joereis.substack.com/p/scotts-tots-and-the-broken-promise",
+   "source": "Joe Reis",
+   "date": "2026-10-25T14:49:03+00:00",
+   "snippet": "The Weekend Windup #50 - Cool reads, events, links, and more",
+   "topics": []
+  },
+  {
+   "title": "Summit Snooze Button: Practical Data Summit is Postponed",
+   "url": "https://joereis.substack.com/p/summit-snooze-button-practical-data",
+   "source": "Joe Reis",
+   "date": "2026-10-21T22:21:30+00:00",
+   "snippet": "Yeah, it’s a bummer. But it’s for the best.",
+   "topics": []
+  },
+  {
+   "title": "The Ghost of Watson Past: Why Enterprise AI Hype Still Eats Startups Alive",
+   "url": "https://joereis.substack.com/p/the-ghost-of-watson-past-why-enterprise",
+   "source": "Joe Reis",
+   "date": "2026-10-20T15:43:35+00:00",
+   "snippet": "A decade ago, IBM Watson was hailed as the undisputed herald of the modern AI revolution.",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Data Engineer Things Newsletter - Data Pulse Edition (October 2026)",
+   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-data-e76",
+   "source": "Data Engineer Things",
+   "date": "2026-10-20T15:03:31+00:00",
+   "snippet": "Spotify doubling code changes with AI, Liquid Clustering vs ZOrdering vs Partitioning, Netfix’s Ontology for Observability and more",
+   "topics": []
+  },
+  {
    "title": "Data Engineering Weekly #292",
    "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-292",
    "source": "Data Engineering Weekly",
@@ -448,6 +464,30 @@
     "Architecture",
     "AI"
    ]
+  },
+  {
+   "title": "Build a Career That Looks Like You",
+   "url": "https://joereis.substack.com/p/build-a-career-that-looks-like-you",
+   "source": "Joe Reis",
+   "date": "2026-10-18T15:58:51+00:00",
+   "snippet": "The Weekend Windup #49 - Cool reads, events, links, and more",
+   "topics": []
+  },
+  {
+   "title": "The Practical Data Summit site is live!",
+   "url": "https://joereis.substack.com/p/the-practical-data-summit-site-is",
+   "source": "Joe Reis",
+   "date": "2026-10-15T20:58:24+00:00",
+   "snippet": "Good people, hard problems, and fresh snow.",
+   "topics": []
+  },
+  {
+   "title": "Are Data Teams Solving the Right Problems?",
+   "url": "https://seattledataguy.substack.com/p/are-data-teams-solving-the-right",
+   "source": "SeattleDataGuy",
+   "date": "2026-10-15T18:02:03+00:00",
+   "snippet": "And 5 Other Questions to Ask Before Your Next Project",
+   "topics": []
   },
   {
    "title": "Beyond the Dag hackathon: meet the winners",
@@ -504,11 +544,29 @@
    ]
   },
   {
+   "title": "Data Engineer Things Newsletter - Community Spotlight Edition (October 2026)",
+   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-community-55f",
+   "source": "Data Engineer Things",
+   "date": "2026-10-06T15:03:48+00:00",
+   "snippet": "On streaming systems, platform design, open source, and engineering tradeoffs.",
+   "topics": [
+    "Architecture"
+   ]
+  },
+  {
    "title": "Data Engineering Weekly #290",
    "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-290",
    "source": "Data Engineering Weekly",
    "date": "2026-10-05T02:08:21+00:00",
    "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "The Pendulums of Data",
+   "url": "https://joereis.substack.com/p/the-pendulums-of-data",
+   "source": "Joe Reis",
+   "date": "2026-10-04T09:35:34+00:00",
+   "snippet": "The Weekend Windup #48 - Cool reads, events, links, and more",
    "topics": []
   },
   {
@@ -567,6 +625,32 @@
    "topics": []
   },
   {
+   "title": "This Year’s Better Mousetrap: New Tech, Same Old Problems, and The Semantic Swamp",
+   "url": "https://joereis.substack.com/p/this-years-better-mousetrap-new-tech",
+   "source": "Joe Reis",
+   "date": "2026-09-27T15:32:54+00:00",
+   "snippet": "The Weekend Windup #47 - Cool reads, events, links, and more",
+   "topics": []
+  },
+  {
+   "title": "Do You Actually Need Real-Time Data?",
+   "url": "https://seattledataguy.substack.com/p/do-you-actually-need-real-time-data",
+   "source": "SeattleDataGuy",
+   "date": "2026-09-25T17:41:04+00:00",
+   "snippet": "Why “real-time” is often a business requirement that hasn’t been defined yet",
+   "topics": []
+  },
+  {
+   "title": "Data Engineer Things Newsletter - Data Pulse Edition (September 2026)",
+   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-data-f15",
+   "source": "Data Engineer Things",
+   "date": "2026-09-22T15:01:18+00:00",
+   "snippet": "OpenAI's playbook for cheaper agent loops, Stripe's self-healing database fleet, Shopify's AI security harness, Apache Ossie's push for a semantic standard and more.",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
    "title": "What Jev will do to data engineering",
    "url": "https://www.astronomer.io/blog/what-jev-will-do-to-data-engineering/",
    "source": "Astronomer Blog",
@@ -593,6 +677,14 @@
    "source": "Data Engineering Weekly",
    "date": "2026-09-21T01:09:33+00:00",
    "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Why Write Books These Days?",
+   "url": "https://joereis.substack.com/p/why-write-books-these-days",
+   "source": "Joe Reis",
+   "date": "2026-09-19T22:06:21+00:00",
+   "snippet": "The Weekend Windup #46 - Cool reads, events, links, and more",
    "topics": []
   },
   {
@@ -639,6 +731,14 @@
    ]
   },
   {
+   "title": "Announcing The Practical Data Summit 2027",
+   "url": "https://joereis.substack.com/p/announcing-the-practical-data-summit",
+   "source": "Joe Reis",
+   "date": "2026-09-15T03:34:52+00:00",
+   "snippet": "Have fun in the snow! Also, not your typical data event...",
+   "topics": []
+  },
+  {
    "title": "Data Engineering Weekly #287",
    "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-287",
    "source": "Data Engineering Weekly",
@@ -647,11 +747,43 @@
    "topics": []
   },
   {
+   "title": "Nobody Knows...",
+   "url": "https://joereis.substack.com/p/nobody-knows",
+   "source": "Joe Reis",
+   "date": "2026-09-13T14:46:23+00:00",
+   "snippet": "The Weekend Windup #45 - Cool reads, events, links, and more",
+   "topics": []
+  },
+  {
+   "title": "Data Engineer Things Newsletter - Community Spotlight Edition (September 2026)",
+   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-community-202",
+   "source": "Data Engineer Things",
+   "date": "2026-09-08T15:00:23+00:00",
+   "snippet": "On changing historical data, safe automation, and why accountability still belongs to people.",
+   "topics": []
+  },
+  {
    "title": "Data Engineering Weekly #286",
    "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-286",
    "source": "Data Engineering Weekly",
    "date": "2026-09-07T00:18:06+00:00",
    "snippet": "The Weekly Data Engineering Newsletter",
+   "topics": []
+  },
+  {
+   "title": "Are Data Teams Cooked?",
+   "url": "https://joereis.substack.com/p/are-data-teams-cooked",
+   "source": "Joe Reis",
+   "date": "2026-09-06T15:16:40+00:00",
+   "snippet": "The Weekend Windup #44 - Cool reads, events, links, and more",
+   "topics": []
+  },
+  {
+   "title": "Engineers Are Obsessed With The How And Often Forget Why?",
+   "url": "https://seattledataguy.substack.com/p/engineers-are-obsessed-with-the-how",
+   "source": "SeattleDataGuy",
+   "date": "2026-09-05T16:08:27+00:00",
+   "snippet": "Why data teams need to spend less time debating the stack and more time questioning the work",
    "topics": []
   },
   {
@@ -673,6 +805,14 @@
    ]
   },
   {
+   "title": "Are You Still Hands-On?",
+   "url": "https://joereis.substack.com/p/are-you-still-hands-on",
+   "source": "Joe Reis",
+   "date": "2026-08-30T15:18:28+00:00",
+   "snippet": "The Weekend Windup #43 - Cool reads, events, links, and more",
+   "topics": []
+  },
+  {
    "title": "How We Built Cross-Region Disaster Recovery for Astro on Azure",
    "url": "https://www.astronomer.io/blog/how-we-built-cross-region-disaster-recovery-for-astro-on-azure/",
    "source": "Astronomer Blog",
@@ -688,6 +828,16 @@
    "snippet": "We rebuilt Airflow's scheduler, executor, and infrastructure on Astro: 500,000 concurrent tasks, 228ms task starts, and the same DAGs you run today.",
    "topics": [
     "Airflow"
+   ]
+  },
+  {
+   "title": "From Vibe Coding to the AI Software Factory",
+   "url": "https://seattledataguy.substack.com/p/from-vibe-coding-to-the-ai-software",
+   "source": "SeattleDataGuy",
+   "date": "2026-08-26T22:10:01+00:00",
+   "snippet": "How I’ve Seen Engineering Teams Use LLMs Over The Past Few Years",
+   "topics": [
+    "AI"
    ]
   },
   {
@@ -707,6 +857,28 @@
    "topics": []
   },
   {
+   "title": "Why Data Modeling Needs a Manifesto",
+   "url": "https://joereis.substack.com/p/why-data-modeling-needs-a-manifesto",
+   "source": "Joe Reis",
+   "date": "2026-08-23T13:34:18+00:00",
+   "snippet": "The Weekend Windup #42 - Cool reads, events, links, and more",
+   "topics": [
+    "Architecture"
+   ]
+  },
+  {
+   "title": "Data Engineer Things Newsletter - Data Pulse Edition (August 2026)",
+   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-data-8c8",
+   "source": "Data Engineer Things",
+   "date": "2026-08-18T15:03:36+00:00",
+   "snippet": "Airflow’s AI-powered pipeline resilience, Uber’s data abstraction layer, Netflix’s in-house LLM serving, AI governance, and Spotify’s Random Access Parquet for faster data lake lookups",
+   "topics": [
+    "Airflow",
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
    "title": "The Complete Databricks Learning Roadmap for 2026",
    "url": "https://blog.dataexpert.io/p/the-2026-mastering-databricks-roadmap",
    "source": "DataExpert.io (Zach Wilson)",
@@ -715,14 +887,38 @@
    "topics": []
   },
   {
-   "title": "How We Built Cross-Region Disaster Recovery for Astro on Google Cloud",
-   "url": "https://www.astronomer.io/blog/how-we-built-cross-region-disaster-recovery-for-astro-on-google-cloud/",
-   "source": "Astronomer Blog",
-   "date": "2026-07-29T16:47:44+00:00",
-   "snippet": "How we built it Cross-region disaster recovery on GCP: the architecture, the decisions specific to Google Cloud, and what teams need to plan before starting.",
+   "title": "The Problem With Asking Employees to “Take Ownership”",
+   "url": "https://seattledataguy.substack.com/p/the-problem-with-asking-employees",
+   "source": "SeattleDataGuy",
+   "date": "2026-08-10T16:29:34+00:00",
+   "snippet": "And then punishing initiative",
+   "topics": []
+  },
+  {
+   "title": "The \"X is Dead\" Fallacy",
+   "url": "https://joereis.substack.com/p/the-x-is-dead-fallacy",
+   "source": "Joe Reis",
+   "date": "2026-08-09T14:30:36+00:00",
+   "snippet": "The Weekend Windup #41 - Cool reads, events, links, and more",
+   "topics": []
+  },
+  {
+   "title": "Data Engineer Things Newsletter - Community Spotlight Edition (August 2026)",
+   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-community-c36",
+   "source": "Data Engineer Things",
+   "date": "2026-08-04T15:02:01+00:00",
+   "snippet": "Near-Infinite Velocity: On Agents, Standards, and What Never Changes",
    "topics": [
-    "Architecture"
+    "AI"
    ]
+  },
+  {
+   "title": "The Post-Literate Engineer",
+   "url": "https://joereis.substack.com/p/the-post-literate-engineer",
+   "source": "Joe Reis",
+   "date": "2026-08-02T15:49:35+00:00",
+   "snippet": "The Weekend Windup #40 - Cool reads, events, links, and more",
+   "topics": []
   }
  ]
 }
