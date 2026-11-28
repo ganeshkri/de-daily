@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T09:05:45+00:00",
+ "updated": "2026-11-28T08:27:39+00:00",
  "topics": [
   "Snowflake",
   "dbt",
@@ -13,8 +13,8 @@
   {
    "name": "SeattleDataGuy",
    "home": "https://seattledataguy.substack.com",
-   "ok": true,
-   "feed": "https://seattledataguy.substack.com/feed"
+   "ok": false,
+   "feed": null
   },
   {
    "name": "Data Engineering Weekly",
@@ -32,7 +32,7 @@
    "name": "Data Engineer Things",
    "home": "https://dataengineerthings.substack.com",
    "ok": true,
-   "feed": "https://dataengineerthings.substack.com/feed"
+   "feed": "https://medium.com/feed/data-engineer-things"
   },
   {
    "name": "Snowflake Builders Blog",
@@ -67,8 +67,8 @@
   {
    "name": "Joe Reis",
    "home": "https://joereis.substack.com",
-   "ok": true,
-   "feed": "https://joereis.substack.com/feed"
+   "ok": false,
+   "feed": null
   }
  ],
  "items": [
@@ -95,6 +95,16 @@
    ]
   },
   {
+   "title": "Compaction Was On. It Never Ran.",
+   "url": "https://blog.dataengineerthings.org/compaction-was-on-it-never-ran-427efdc02794?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-24T19:03:21+00:00",
+   "snippet": "Live data files per hourly partition in the battery telemetry table, read from the Iceberg manifest on November 24, 2026. Image by the author. I benchmarked my own tool against Athena and, on one table, it was up to 25 times slower. It took me a month to find…",
+   "topics": [
+    "Architecture"
+   ]
+  },
+  {
    "title": "We Didn’t Need a Faster Data Warehouse",
    "url": "https://seattledataguy.substack.com/p/we-didnt-need-a-faster-data-warehouse",
    "source": "SeattleDataGuy",
@@ -103,13 +113,13 @@
    "topics": []
   },
   {
-   "title": "Data Engineer Things Newsletter - Data Pulse Edition (November 2026)",
-   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-data-68d",
+   "title": "We Underestimated Microsoft Fabric CU Consumption. Here’s Where It Went",
+   "url": "https://blog.dataengineerthings.org/we-underestimated-microsoft-fabric-cu-consumption-heres-where-it-went-9b75078c467e?source=rss----f2ba5b8f6eb3---4",
    "source": "Data Engineer Things",
-   "date": "2026-11-24T16:02:48+00:00",
-   "snippet": "Future of data roles, Dawn of the data intelligence engineer, Pinterest's loop engineering, Goal engineering for agents, Graph-structured entities for resolution at scale and more.",
+   "date": "2026-11-24T18:45:20+00:00",
+   "snippet": "A lakehouse that looked fine on paper, where the capacity units actually went and the five questions I ask now before I size anything. Continue reading on Data Engineer Things »",
    "topics": [
-    "AI"
+    "Architecture"
    ]
   },
   {
@@ -154,6 +164,36 @@
     "Snowflake",
     "Architecture",
     "AI"
+   ]
+  },
+  {
+   "title": "What the f*** is a semantic layer?",
+   "url": "https://blog.dataengineerthings.org/what-the-f-is-a-semantic-layer-01aba6f7e964?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-23T16:16:28+00:00",
+   "snippet": "Is it just an add-on to your data platform? Continue reading on Data Engineer Things »",
+   "topics": [
+    "dbt"
+   ]
+  },
+  {
+   "title": "Your Data Diff Is Lying: 6 Traps When Comparing a Table Before and After a Change",
+   "url": "https://blog.dataengineerthings.org/your-data-diff-is-lying-6-traps-when-comparing-a-table-before-and-after-a-change-f1f072b3bb36?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-23T16:14:23+00:00",
+   "snippet": "What I learned trying to break my own table-diff tool on Databricks, with plain SQL to avoid each trap Image by the author Before a change ships, you want to know what it will do to a table. How many rows will be added, removed or changed? The usual answer is…",
+   "topics": [
+    "SQL"
+   ]
+  },
+  {
+   "title": "How I Processed 1 Billion Events a Day for About $3",
+   "url": "https://blog.dataengineerthings.org/how-i-processed-1-billion-events-a-day-for-about-3-0909386d824f?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-23T16:14:00+00:00",
+   "snippet": "I did not believe the numbers, so I ran the whole test again. For more than 12 years I have worked with various data pipelines, and my cloud bills for processing event streams have run to hundreds of dollars, sometimes even thousands. This came out at about…",
+   "topics": [
+    "Architecture"
    ]
   },
   {
@@ -219,11 +259,59 @@
    ]
   },
   {
+   "title": "Interesting Pattern for Medium Scale Data Sharing for Analytical Workloads",
+   "url": "https://blog.dataengineerthings.org/interesting-pattern-for-medium-scale-data-sharing-for-analytical-workloads-cea86b73e236?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-18T18:26:33+00:00",
+   "snippet": "For the past year, I have been working as a Landing Zone Engineer, primarily responsible for scoping, designing, and maintaining landing zones for our data platform, along with building Data & AI assets. Different source systems require different approaches…",
+   "topics": [
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "One Silver Row Changed. Which Gold Totals Must Change?",
+   "url": "https://blog.dataengineerthings.org/one-silver-row-changed-which-gold-totals-must-change-3430ba3db6f3?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-18T18:26:25+00:00",
+   "snippet": "Why the old group is the one we forget, and four ways to repair Gold totals, each checked against a full rebuild. Continue reading on Data Engineer Things »",
+   "topics": []
+  },
+  {
    "title": "AI Is Only as Powerful as the Data Behind It: Making Trading Data AI-Ready",
    "url": "https://medium.com/snowflake/ai-is-only-as-powerful-as-the-data-behind-it-making-trading-data-ai-ready-9e17ab128829?source=rss----34b6daafc07---4",
    "source": "Snowflake Builders Blog",
    "date": "2026-11-18T18:01:05+00:00",
    "snippet": "By Andrew Ralich, CEO, oneZero Financial Systems There is a lot of discussion today about what artificial intelligence will mean for financial markets. In an industry where, in the modern era, written communications are mandated to conclude “past performance…",
+   "topics": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Silver Already Keeps History. Why Is Gold Building It Again?",
+   "url": "https://blog.dataengineerthings.org/silver-already-keeps-history-why-is-gold-building-it-again-449a8c21a49d?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-17T16:22:39+00:00",
+   "snippet": "When Gold should carry Silver’s history, when it needs its own, and how a refresh can write the same past twice. Continue reading on Data Engineer Things »",
+   "topics": []
+  },
+  {
+   "title": "Streaming to Iceberg: Kafka Connect vs Flink",
+   "url": "https://blog.dataengineerthings.org/streaming-to-iceberg-kafka-connect-vs-flink-218fd71132ee?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-17T16:22:22+00:00",
+   "snippet": "Photo by Harry Tran on Unsplash All Data engineers have to do data ingestion, which is a process of collecting, importing, and moving raw data from diverse sources into a central storage or processing platform. Now, i’m talking about moving data from…",
+   "topics": [
+    "Architecture",
+    "AI"
+   ]
+  },
+  {
+   "title": "AI Agents Made Building Easy. Judgement Is the New Portfolio",
+   "url": "https://blog.dataengineerthings.org/when-ai-agents-do-the-coding-side-projects-must-prove-judgement-976e2fc1c8f2?source=rss----f2ba5b8f6eb3---4",
+   "source": "Data Engineer Things",
+   "date": "2026-11-17T16:22:14+00:00",
+   "snippet": "What Anthropic’s October workforce data and real shipping pressure tell early-career developers told to “build a startup.” Continue reading on Data Engineer Things »",
    "topics": [
     "AI"
    ]
@@ -283,16 +371,6 @@
    "snippet": "Fireside chat with Barry McCardel (CEO Hex)",
    "topics": [
     "AI"
-   ]
-  },
-  {
-   "title": "Data Engineer Things Newsletter - Community Spotlight Edition (November 2026)",
-   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-community-6a0",
-   "source": "Data Engineer Things",
-   "date": "2026-11-10T16:03:05+00:00",
-   "snippet": "On building community, open-source learning and data build tool (dbt) best practices",
-   "topics": [
-    "dbt"
    ]
   },
   {
@@ -437,14 +515,6 @@
    ]
   },
   {
-   "title": "Data Engineer Things Newsletter - Data Pulse Edition (October 2026)",
-   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-data-e76",
-   "source": "Data Engineer Things",
-   "date": "2026-10-20T15:03:31+00:00",
-   "snippet": "Spotify doubling code changes with AI, Liquid Clustering vs ZOrdering vs Partitioning, Netfix’s Ontology for Observability and more",
-   "topics": []
-  },
-  {
    "title": "Data Engineering Weekly #292",
    "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-292",
    "source": "Data Engineering Weekly",
@@ -544,16 +614,6 @@
    ]
   },
   {
-   "title": "Data Engineer Things Newsletter - Community Spotlight Edition (October 2026)",
-   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-community-55f",
-   "source": "Data Engineer Things",
-   "date": "2026-10-06T15:03:48+00:00",
-   "snippet": "On streaming systems, platform design, open source, and engineering tradeoffs.",
-   "topics": [
-    "Architecture"
-   ]
-  },
-  {
    "title": "Data Engineering Weekly #290",
    "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-290",
    "source": "Data Engineering Weekly",
@@ -639,16 +699,6 @@
    "date": "2026-09-25T17:41:04+00:00",
    "snippet": "Why “real-time” is often a business requirement that hasn’t been defined yet",
    "topics": []
-  },
-  {
-   "title": "Data Engineer Things Newsletter - Data Pulse Edition (September 2026)",
-   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-data-f15",
-   "source": "Data Engineer Things",
-   "date": "2026-09-22T15:01:18+00:00",
-   "snippet": "OpenAI's playbook for cheaper agent loops, Stripe's self-healing database fleet, Shopify's AI security harness, Apache Ossie's push for a semantic standard and more.",
-   "topics": [
-    "AI"
-   ]
   },
   {
    "title": "What Jev will do to data engineering",
@@ -752,14 +802,6 @@
    "source": "Joe Reis",
    "date": "2026-09-13T14:46:23+00:00",
    "snippet": "The Weekend Windup #45 - Cool reads, events, links, and more",
-   "topics": []
-  },
-  {
-   "title": "Data Engineer Things Newsletter - Community Spotlight Edition (September 2026)",
-   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-community-202",
-   "source": "Data Engineer Things",
-   "date": "2026-09-08T15:00:23+00:00",
-   "snippet": "On changing historical data, safe automation, and why accountability still belongs to people.",
    "topics": []
   },
   {
@@ -867,18 +909,6 @@
    ]
   },
   {
-   "title": "Data Engineer Things Newsletter - Data Pulse Edition (August 2026)",
-   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-data-8c8",
-   "source": "Data Engineer Things",
-   "date": "2026-08-18T15:03:36+00:00",
-   "snippet": "Airflow’s AI-powered pipeline resilience, Uber’s data abstraction layer, Netflix’s in-house LLM serving, AI governance, and Spotify’s Random Access Parquet for faster data lake lookups",
-   "topics": [
-    "Airflow",
-    "Architecture",
-    "AI"
-   ]
-  },
-  {
    "title": "The Complete Databricks Learning Roadmap for 2026",
    "url": "https://blog.dataexpert.io/p/the-2026-mastering-databricks-roadmap",
    "source": "DataExpert.io (Zach Wilson)",
@@ -901,16 +931,6 @@
    "date": "2026-08-09T14:30:36+00:00",
    "snippet": "The Weekend Windup #41 - Cool reads, events, links, and more",
    "topics": []
-  },
-  {
-   "title": "Data Engineer Things Newsletter - Community Spotlight Edition (August 2026)",
-   "url": "https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-community-c36",
-   "source": "Data Engineer Things",
-   "date": "2026-08-04T15:02:01+00:00",
-   "snippet": "Near-Infinite Velocity: On Agents, Standards, and What Never Changes",
-   "topics": [
-    "AI"
-   ]
   },
   {
    "title": "The Post-Literate Engineer",
